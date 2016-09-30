@@ -1,12 +1,12 @@
 require "ostruct"
 require "mime/types/full"
 
-require "youtube_artist_track_parser/version"
-require "youtube_artist_track_parser/splitter"
-require "youtube_artist_track_parser/cleaner"
-require "youtube_artist_track_parser/parser"
+require "extract_artist_track/version"
+require "extract_artist_track/splitter"
+require "extract_artist_track/cleaner"
+require "extract_artist_track/parser"
 
-module YoutubeArtistTrackParser
+module ExtractArtistTrack
   QUOTES = [
     '“”',
     '""',

@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'youtube_artist_track_parser'
+require 'extract_artist_track'
 require 'rspec/its'
 require 'yaml'

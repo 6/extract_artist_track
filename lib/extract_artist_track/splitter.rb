@@ -1,4 +1,4 @@
-module YoutubeArtistTrackParser
+module ExtractArtistTrack
   class Splitter
     attr_reader :title, :artist, :track
     def initialize(title:)

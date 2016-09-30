@@ -1,4 +1,4 @@
-module YoutubeArtistTrackParser
+module ExtractArtistTrack
   class Cleaner
     def self.clean_title(title)
       return if !title.is_a?(String)

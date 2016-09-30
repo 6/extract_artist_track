@@ -1,4 +1,4 @@
-module YoutubeArtistTrackParser
+module ExtractArtistTrack
   class Parser
     def initialize(title:)
       @title = Cleaner.clean_title(title)

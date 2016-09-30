@@ -1,17 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'youtube_artist_track_parser/version'
+require 'extract_artist_track/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "youtube_artist_track_parser"
-  spec.version       = YoutubeArtistTrackParser::VERSION
+  spec.name          = "extract_artist_track"
+  spec.version       = ExtractArtistTrack::VERSION
   spec.authors       = ["Peter Graham"]
-  spec.email         = ["peterghm@gmail.com"]
 
   spec.summary       = %q{Extract artist and track from YouTube video title.}
   spec.description   = %q{Extract artist and track from a freeform YouTube video title.}
-  spec.homepage      = "https://github.com/6/youtube_artist_track_parser"
+  spec.homepage      = "https://github.com/6/extract_artist_track"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"

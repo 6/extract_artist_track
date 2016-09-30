@@ -1,4 +1,4 @@
-describe YoutubeArtistTrackParser::Parser do
+describe ExtractArtistTrack::Parser do
   context "with nil title" do
     subject { described_class.new(title: nil) }
 
