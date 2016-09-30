@@ -2,8 +2,6 @@
 
 Ruby port of [get-artist-title](https://github.com/goto-bus-stop/get-artist-title) for getting the song artist and track from a freeform string, e.g. a YouTube video title.
 
-Example:
-
 ```ruby
 parser = ExtractArtistTrack::Parser.new(title: "Madeon - The City (Official Video).mp4")
 parser.artist
@@ -31,9 +29,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install extract_artist_track
 
 ## Development
 
