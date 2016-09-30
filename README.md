@@ -1,6 +1,6 @@
-# ExtractArtistTrack
+# ExtractArtistTrack [![CircleCI](https://circleci.com/gh/6/extract_artist_track.svg?style=svg)](https://circleci.com/gh/6/extract_artist_track)
 
-Ruby port of [get-artist-title.js](https://github.com/goto-bus-stop/get-artist-title) for getting the song artist and track name from a freeform string, e.g. a YouTube video title.
+Ruby port of [get-artist-title](https://github.com/goto-bus-stop/get-artist-title) for getting the song artist and track from a freeform string, e.g. a YouTube video title.
 
 Example:
 
